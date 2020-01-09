@@ -152,7 +152,7 @@
                 <p class="uk-text-medium uk-text-white uk-margin-remove-top ">
                     Cette plateforme a priorisé le fait de mettre les cours en disposition des etudiants et rendres la communications entre eux et leurs formateurs possible.</p>
                 <a class="el-content uk-button uk-button-primary uk-button-large" href="cours/">
-                    Démarrer MAINTENANT                </a>
+                    Démarrer MAINTENANT              </a>
             </div>
             <div class="uk-width-1-2@m uk-flex-first">
                 <img src="{{asset('images/backgrounds/home-feature-5.png')}}" alt="">
