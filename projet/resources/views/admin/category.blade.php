@@ -4,14 +4,14 @@
 
 
 <!-- Get Sidebar -->
-@extends('includes.sidebar')
+@extends('includes.admin.sidebar')
 
 
 <!-- main contant -->
 <div class="admin-content">
 
     <!-- Get Sidebar -->
-    @include('includes.nav')
+    @include('includes.admin.nav')
 
     <div class="admin-content-inner">
         <div class="uk-flex-inline uk-flex-middle">

@@ -114,3 +114,43 @@ Route::get('/admin/logout', function () {
 Route::get('/formateur', function () {
     return view('cours/login');
 });
+
+/*---
+    ========= Book Formateur
+ ---*/
+
+Route::get('/formateur/books', function () {
+    return view('formateur/books');
+})->name('books');
+
+/*---
+    ========= Cours Formateur
+ ---*/
+
+Route::get('/formateur/cours', function () {
+    return view('formateur/cours');
+})->name('cours');
+
+/*---
+    ========= Home Formateur
+ ---*/
+
+Route::get('/formateur/home', function () {
+    return view('formateur/index');
+})->name('home');
+
+/*---
+    ========= Profile Formateur
+ ---*/
+
+Route::get('/formateur/profile', function () {
+    return view('formateur/profile');
+})->name('profile');
+
+/*---
+    ========= Scripts Formateur
+ ---*/
+
+Route::get('/formateur/scripts', function () {
+    return view('formateur/scripts');
+})->name('scripts');
