@@ -6,11 +6,7 @@ namespace App;
 
 class Cour
 {
-    public $id;
-    public $title;
-    public $description;
-    public $tags;
-    public $etat;
+    public $id,$title,$nom_cours,$description,$tag;
 
     /**
      * @return mixed
@@ -47,6 +43,22 @@ class Cour
     /**
      * @return mixed
      */
+    public function getNomCours()
+    {
+        return $this->nom_cours;
+    }
+
+    /**
+     * @param mixed $nom_cours
+     */
+    public function setNomCours($nom_cours): void
+    {
+        $this->nom_cours = $nom_cours;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getDescription()
     {
         return $this->description;
@@ -63,36 +75,18 @@ class Cour
     /**
      * @return mixed
      */
-    public function getTags()
+    public function getTag()
     {
-        return $this->tags;
+        return $this->tag;
     }
 
     /**
-     * @param mixed $tags
+     * @param mixed $tag
      */
-    public function setTags($tags): void
+    public function setTag($tag): void
     {
-        $this->tags = $tags;
+        $this->tag = $tag;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getEtat()
-    {
-        return $this->etat;
-    }
-
-    /**
-     * @param mixed $etat
-     */
-    public function setEtat($etat): void
-    {
-        $this->etat = $etat;
-    }
-
-
 
 
 }
